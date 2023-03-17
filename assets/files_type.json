@@ -1,0 +1,292 @@
+{
+    "files": [
+        {
+            "id": "candidate_id",
+            "description": "candidate id",
+            "description_he": "תעודות זהות של מעומד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_id",
+            "description": "father id",
+            "description_he": "תעודות זהות של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_id",
+            "description": "mother id",
+            "description_he": "תעודות זהות של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_current_account",
+            "description": "candidate's current account",
+            "description_he": "חשבון עו\"ש מועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_current_account",
+            "description": "candidate's father current account",
+            "description_he": "חשבון עו\"ש של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_current_account",
+            "description": "candidate's mother current account",
+            "description_he": "חשבון עו\"ש של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_current_account",
+            "description": "candidate's partner current account",
+            "description_he": "חשבון עו\"ש של שותף המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_details_of_credit_charges",
+            "description": "candidate's credit charges",
+            "description_he": "חיובי האשראי של המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_details_of_credit_charges",
+            "description": "candidate's father credit charges",
+            "description_he": "חיובי האשראי של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_details_of_credit_charges",
+            "description": "candidate's mother credit charges",
+            "description_he": "חיובי האשראי של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_details_of_credit_charges",
+            "description": "candidate's partner credit charges",
+            "description_he": "חיובי האשראי של פרטנר המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_balance_concentration",
+            "description": "candidate's baשlance concentration",
+            "description_he": "ריכוז יתרות של המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_balance_concentration",
+            "description": "candidate's father's balance concentration",
+            "description_he": "ריכוז יתרות של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_balance_concentration",
+            "description": "candidate's mother's balance concentration",
+            "description_he": "ריכוז יתרות של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_balance_concentration",
+            "description": "candidate's partner's balance concentration",
+            "description_he": "ריכוז יתרות של פרטנר המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_vehicle_licence",
+            "description": "candidate's vehicle licence",
+            "description_he": "רישיון רכב של המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_vehicle_licence",
+            "description": "candidate's father's vehicle licence",
+            "description_he": "רישיון רכב של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_vehicle_licence",
+            "description": "candidate's mother's vehicle licence",
+            "description_he": "רישיון רכב של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_vehicle_licence",
+            "description": "candidate's partner's vehicle licence",
+            "description_he": "רישיון רכב של פרטנר המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_rental_agreement",
+            "description": "candidate's father's rental agreement",
+            "description_he": "חוזה שכירות של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_rental_agreement",
+            "description": "candidate's rental agreement",
+            "description_he": "חוזה שכירות של המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_rental_agreement",
+            "description": "candidate's mother's rental agreement",
+            "description_he": "חוזה שכירות של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_rental_agreement",
+            "description": "candidate's partner's rental agreement",
+            "description_he": "הסכם שכירות של שותף המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "marriage_certificate",
+            "description": "marriage certificate",
+            "description_he": "תעודות נישואין",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "divorce_certificate",
+            "description": "divorce certificate",
+            "description_he": "תעודות גט"
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_pay_stubs",
+            "description": "candidate's pay stubs",
+            "description_he": "תלושי שכר של  המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_pay_stubs",
+            "description": "candidate's father's pay stubs",
+            "description_he": "תלושי שכר אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_pay_stubs",
+            "description": "candidate's mother's pay stubs",
+            "description_he": "תלושי שכר אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "student_certificate",
+            "description": "student certificate",
+            "description_he": "תעודת סטודנט",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_death_certificate",
+            "description": "father death certificate",
+            "description_he": "תעודת פטירה עבור אב",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_death_certificate",
+            "description": "mother death certificate",
+            "description_he": "תעודת פטירה עבור אם",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_death_certificate",
+            "description": "partner death certificate",
+            "description_he": "תעודת פטירה עבור שותף",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_no_work",
+            "description": "Confirmation that the candidate does not have a job",
+            "description_he": "אישור שלמועמד אין עבודה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_no_work",
+            "description": "Confirmation that the candidate father does not have a job",
+            "description_he": "אישור שלאב המועמד אין עבודה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_no_work",
+            "description": "Confirmation that the candidate mother does not have a job",
+            "description_he": "אישור שלאם המועמד אין עבודה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_no_work",
+            "description": "Confirmation that the candidate partner does not have a job",
+            "description_he": "אישור שלפרטנר המועמד אין עבודה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "study_confirmation",
+            "description": "Studant permit",
+            "description_he": "אישור לימודים",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_cpa_approval_on_income",
+            "description": "Confirmation of the amount of income for a mother",
+            "description_he": "ריכוז יתרות של אם המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_cpa_approval_on_income",
+            "description": "Confirmation of the amount of income for a father",
+            "description_he": "ריכוז יתרות של אב המועמד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "partner_cpa_approval_on_income",
+            "description": "Confirmation of the amount of income for a partner",
+            "description_he": "אישור על סכום הכנסה עבור שותף",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "approve_allowance_amount",
+            "description": "Confirmation of the allowance amount",
+            "description_he": "אישור על סכום הקצבה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "warrior_certificate",
+            "description": "warrior certificate",
+            "description_he": "תעודת לוחם",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "monthly_budget_from_kibbutz",
+            "description": "monthly budget from kibbutz",
+            "description_he": "תקציב חודשי מהקיבוץ",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "candidate_mortgage",
+            "description": "candidate mortgage",
+            "description_he": "משכנתא מעומד",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "mother_mortgage",
+            "description": "mother mortgage",
+            "description_he": "משכנתא אם",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_mortgage",
+            "description": "father mortgage",
+            "description_he": "משכנתא אב",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "tuition",
+            "description": "tuition",
+            "description_he": "הוראה",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        },
+        {
+            "id": "father_mole_report",
+            "description": "father mole report",
+            "description_he": "דוח שומה אב",
+            "accepted_file_list": "'image/jpeg', 'image/png', 'application/pdf'"
+        }
+    ]
+}

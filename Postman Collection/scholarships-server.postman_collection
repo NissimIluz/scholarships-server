@@ -1,0 +1,3360 @@
+{
+	"info": {
+		"_postman_id": "93139f91-8985-492f-8587-506207aeed4e",
+		"name": "SchoolarServerPostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15792648"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"item": [
+				{
+					"name": "candidates",
+					"item": [
+						{
+							"name": "Register",
+							"item": [
+								{
+									"name": "registerStep1",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "firstName",
+													"value": "firstName",
+													"type": "text"
+												},
+												{
+													"key": "lastName",
+													"value": "lastName",
+													"type": "text"
+												},
+												{
+													"key": "idNumber",
+													"value": "123456789",
+													"type": "text"
+												},
+												{
+													"key": "birthDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "email",
+													"value": "325978@gmai.com",
+													"type": "text"
+												},
+												{
+													"key": "phoneNumber",
+													"value": "+9721234561229",
+													"type": "text"
+												},
+												{
+													"key": "city",
+													"value": "city",
+													"type": "text"
+												},
+												{
+													"key": "street",
+													"value": "stree",
+													"type": "text"
+												},
+												{
+													"key": "streetNumber",
+													"value": "45464645646",
+													"type": "text"
+												},
+												{
+													"key": "password",
+													"value": "password",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "zipCode",
+													"value": "123456",
+													"type": "text"
+												},
+												{
+													"key": "idFile",
+													"type": "file",
+													"src": "/C:/Users/eiloz/Downloads/HE.pdf"
+												}
+											]
+										},
+										"url": {
+											"raw": "https://127.0.0.1:5000/candidates/registerStep1",
+											"protocol": "https",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "5000",
+											"path": [
+												"candidates",
+												"registerStep1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep2",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "nationalService",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "nationalServiceStartDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "nationalServiceEndDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "collegeName",
+													"value": "אוניברסיטה-",
+													"type": "text"
+												},
+												{
+													"key": "collegeId",
+													"value": "2",
+													"type": "text"
+												},
+												{
+													"key": "studyCurrentYear",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "fieldOfStudy",
+													"value": "מחשבים",
+													"type": "text"
+												},
+												{
+													"key": "degree",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "studyStartYear",
+													"value": "2014",
+													"type": "text"
+												},
+												{
+													"key": "token",
+													"value": "token",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "studentPermit",
+													"type": "file",
+													"src": "/C:/Users/חן/Pictures/First (3).jpg"
+												}
+											]
+										},
+										"url": {
+											"raw": "https://127.0.0.1:5000/candidates/registerStep2",
+											"protocol": "https",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "5000",
+											"path": [
+												"candidates",
+												"registerStep2"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep3",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "isAllowance",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "isWork",
+													"value": "false",
+													"type": "text"
+												},
+												{
+													"key": "workIncomeMonthly",
+													"value": "52",
+													"type": "text"
+												},
+												{
+													"key": "workIncomeMonthly",
+													"value": "",
+													"type": "text"
+												},
+												{
+													"key": "allowanceIncomeMonthly",
+													"value": "500",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "https://127.0.0.1:5000/candidates/registerStep3",
+											"protocol": "https",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "5000",
+											"path": [
+												"candidates",
+												"registerStep3"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep4",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "acceptTerms",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "token",
+													"value": "token",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										},
+										"url": {
+											"raw": "https://127.0.0.1:5000/candidates/registerStep4",
+											"protocol": "https",
+											"host": [
+												"127",
+												"0",
+												"0",
+												"1"
+											],
+											"port": "5000",
+											"path": [
+												"candidates",
+												"registerStep4"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"auth": {
+								"type": "bearer",
+								"bearer": [
+									{
+										"key": "token",
+										"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImRmNGZiOTQ1LTk3NzYtNGEyYi1hNmZhLTI5MTFmZDYyOWRiYSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkQzJXeW1YalAzeHdPaWszWiQzN2E1ZWIyZGRlNzEzZjEyZjVhZTM0ODIyZmQzMDUxNjdjYWMyMDkxNWEyZDRhMGYwZjQ5NTZmZDA3MzdhZmQwIiwicGhvbmVOdW1iZXIiOiIrOTcyMTIzNDU2MTIyOTU3IiwiZW1haWwiOiIzMjU5Nzc4NUBnbWFpLmNvbSIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4yIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjUyMzg4NDl9.EJYl8tvSPC9lkKUTi9BS1A-aOLozUj6uJFwdHJ6U9cQ",
+										"type": "string"
+									}
+								]
+							},
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "candidates/addCandidates",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"username\": \"username2\",\r\n    \"password\": \"password\",\r\n            \"email\": \"eiloz67@gmail.com\",\r\n        \"phoneNumber\": \"+672524382508\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/addCandidates",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"addCandidates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/getUserData",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"getUserData"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "candidates/login",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"username\": \"emaas611fghfghfgghil@gmai.com\",\r\n    \"password\": \"password\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/login",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep1",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"phoneNumber\": \"+97212345612295\",\r\n    \"email\": \"3259785@gmai.com\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/loginByOtpStep1",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"loginByOtpStep1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep2",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"phoneNumber\": \"+97212345612295\",\r\n    \"email\": \"32597785@gmai.com\",\r\n    \"otp\": \"033088\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/loginByOtpStep2",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"loginByOtpStep2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCandidate",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/deleteCandidate",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"deleteCandidate"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateCandidate",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"password\": \"new_password\",\r\n            \"email\": \"new@new.email\",\r\n        \"phoneNumber\": \"052-1111111\",\r\n     \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InNkZnNmc2RmdyIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaDI3aklFYzh0ZHMxUGFTTiRlOWFjMGFhYzk0ZDQ0OGI0NjU2MDlhOTNmZTlkMDRlMDgwZGU5NDAxNThiYjIxNTY4MTkyYmQ2NzkwYTAzNzU2IiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUxNjgyNjI4fQ.kTv7-tJ-2AQMLphLstDdKMcjNDDjuD1MzI4SJ1-1og8\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/candidates/updateCandidate",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"candidates",
+										"updateCandidate"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImRmNGZiOTQ1LTk3NzYtNGEyYi1hNmZhLTI5MTFmZDYyOWRiYSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkYnpnSE1mTGE3Sm9udU5PaSQ5NzgxNmQyZTdmMWVkYzQ5YTZkOGU4NzFkYzU4NmVkZGYwNzg5M2UzZDFmNzQxOWQ3MTRjNWE3YmVmY2FmNjRlIiwicGhvbmVOdW1iZXIiOiIrOTcyMTIzNDU2MTIyOTU3IiwiZW1haWwiOiIzMjU5Nzc4NUBnbWFpLmNvbSIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4yIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjUyNDM3Njh9.xJ7pOskRiTnZczV3_z4sDc-aXUN6N0uA8XkyemQWcXw",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "organization",
+					"item": [
+						{
+							"name": "organization/addOrganization",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"organizationName\": \"organ111izationName888\",\r\n    \"address\": \"address\",\r\n    \"officePhone\": \"08-98745365\",\r\n    \"facebook\":\"www.facebook.co.il\",\r\n    \"linkedin\":\"www.linkedin.co.il\",\r\n    \"website\": \"www.website.co.il\",\r\n    \"lego\":\"www.lego.co.il\",\r\n    \"contacts\": [\r\n          {\r\n        \"username\": \"username2211\",\r\n        \"password\": \"password\",\r\n        \"email\": \"emai00s2@email.email\",\r\n        \"phoneNumber\": \"+9752-1234567\"\r\n        }\r\n    ],\r\n    \"organizationSize\": 1\r\n}\r\n\r\n\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/addOrganization",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"addOrganization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/login",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"username\": \"Test2\",\r\n    \"password\": \"password\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/login",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep1",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\" : \"new@email.newnew\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/loginByOtpStep1",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"loginByOtpStep1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep2",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"phoneNumber\": \"+972524382508\",\r\n    \"email\" : \"new@email.newnew\",\r\n    \"otp\": \"897176\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/loginByOtpStep2",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"loginByOtpStep2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationContact",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/getOrganizationContacts",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"getOrganizationContacts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/getOrganizationData",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"getOrganizationData"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIxMSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkN2E0S0VhQzZhYlpxMnhINCQwYmY4ZmFkMDllNjVlMGFhMWJiMjBkNjQ0MmI3ZWEwYTBkMmYxZTFlMGRiMzc5NDliOGRmZGYwMzdmZTA0ZWE0IiwicGhvbmVOdW1iZXIiOiIrOTc1Mi0xMjM0NTY3IiwiZW1haWwiOiJlbWFpMDBzMkBlbWFpbC5lbWFpbCIsInVzZXJJZGVudGl0eSI6bnVsbCwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMiIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjAzMzc5MzB9.IRaXR1pNkSLuvA5R19_u-1ll2fhr-8cCEu9GaPWcV_s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/getUserData?usernameToGet=",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"getUserData"
+									],
+									"query": [
+										{
+											"key": "usernameToGet",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/addContact",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n          {\r\n        \"username\": \"username2211\",\r\n        \"password\": \"password\",\r\n        \"email\": \"emai00s2@email.email\",\r\n        \"phoneNumber\": \"+9752-1234567\"\r\n        }\r\n    ]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/addContacts",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"addContacts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/updateContact",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n            \"email\": \"new@emsail.newnew\",\r\n        \"phoneNumber\": \"052d-0000000\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/updateContact",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"updateContact"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/deleteContact",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/deleteContact?usernameToDelete=eiloz62sd",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"deleteContact"
+									],
+									"query": [
+										{
+											"key": "usernameToDelete",
+											"value": "eiloz62sd"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOrganization",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  \r\n    \"address\": \"dsfsdfaddress\",\r\n    \"officePhone\": \"08-00000\",\r\n    \"facebook\":\"new www.facebook.co.il\",\r\n    \"linkedin\":\"new www.linkedin.co.il\",\r\n    \"website\": \"new www.website.co.il\",\r\n    \"lego\":\"new  www.lego.co.il\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/updateOrganization",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"updateOrganization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteOrganization",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/organization/deleteOrganization",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"organization",
+										"deleteOrganization"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJ1c2VySWRlbnRpdHkiOiJPcmdhbml6YXRpb25Db250YWN0IiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMiIsImlzUmVnaXN0ZXJlZCI6dHJ1ZSwiZXhwIjoxNjY1MjQ0NDg3fQ.Ce6eJjxycuVcpQZRZFzNGbH2ptVDKhZvwACLI7Ftfes",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "scholarships",
+					"item": [
+						{
+							"name": "scholarships/add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n   {\r\n  \r\n\"volunteering\":true,\"conditions\":[\"yeshivaGraduate\",\"israeli_citizen\"],\"extraConditions\":[\"\"],\"name\":\"sdfsdf45648\",\"minPrice\":\"2500\",\"maxPrice\":\"3000\",\"shortDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"fullDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"imageOfScholarship\":\"\",\"scholarshipType\":\"religious\",\"scholarshipPaymentType\":\"cash\",\"eligibleType\":\"preparation\",\"finalDateToApproval\":\"2021-11-01\",\"documentsRequired\":[{\"label\":\" צילום תעודת זהות של המועמד \",\"value\":\"candidate_id\"},{\"label\":\"דוח עו''ש של המועמד\",\"value\":\"candidate_current_account\"},{\"label\":\"תלושי שכר של המועמד\",\"value\":\"candidate_pay_stubs\"},{\"label\":\"אישור גובה שכר לימוד\",\"value\":\"tuition\"},{\"label\":\"אישור בוגר ישיבה\",\"value\":\"yeshiva_confirmation\"},{\"label\":\"מכתב אישי\",\"value\":\"personal_letter\"}],\"organizationId\":\"IMPACT1\",\"create_by\":\"username111\",\"organizationName\":\"None\",\"create_date\":{\"$date\":{\"$numberLong\":\"1648746426139\"}},\"update_date\":null,\"finalDateToApply\":\"2021-10-31\",\"isActive\":true}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/scholarships/add",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"scholarships",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n   {  \r\n           \r\n                    \"name\": \"77777\"\r\n               \r\n                }\r\n            \r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/scholarships/delete?scholarshipName=sdfsdf45648",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"scholarships",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "scholarshipName",
+											"value": "sdfsdf45648"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n  {  \r\n         \"volunteering\":true,\"conditions\":[\"yeshivaGraduate\",\"israeli_citizen\"],\"extraConditions\":[\"\"],\"name\":\"sdfsdf45648\",\"minPrice\":\"77\",\"maxPrice\":\"3000\",\"shortDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"fullDescription\":\"מלגfghhgjregcgjghיבה\",\"imageOfScholarship\":\"\",\"scholarshipType\":\"religious\",\"scholarshipPaymentType\":\"cash\",\"eligibleType\":\"preparation\",\"finalDateToApproval\":\"2222-11-01\",\"documentsRequired\":[{\"label\":\" צילום תעודת זהות של המועמד \",\"value\":\"candidate_id\"},{\"label\":\"דוח עו''ש של המועמד\",\"value\":\"candidate_current_account\"},{\"label\":\"תלושי שכר של המועמד\",\"value\":\"candidate_pay_stubs\"},{\"label\":\"אישור גובה שכר לימוד\",\"value\":\"tuition\"},{\"label\":\"אישור בוגר ישיבה\",\"value\":\"yeshiva_confirmation\"},{\"label\":\"מכתב אישי\",\"value\":\"personal_letter\"}],\"organizationId\":\"IMPACT1\",\"create_by\":\"username111\",\"organizationName\":\"None\",\"create_date\":{\"$date\":{\"$numberLong\":\"1648746426139\"}},\"update_date\":null,\"finalDateToApply\":\"2021-10-31\",\"isActive\":true}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/scholarships/update",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"scholarships",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get scholarships",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/scholarships",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"scholarships"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationScholarships",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDIyMjk2N30.XPS4teL_x2IMIN6JXUlyCbGMQrHmH1O3S3su0YtQnmA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/scholarships/getOrganizationScholarships",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"scholarships",
+										"getOrganizationScholarships"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "submissions",
+					"item": [
+						{
+							"name": "submit",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InpFeW5NTTRpWFA4SDBIZSIsInBhc3N3b3JkIjpudWxsLCJwaG9uZU51bWJlciI6Iis5NzI1MjQzODI1MDgiLCJlbWFpbCI6InRlc3RzdWJtaXNzaW9uc0B0ZXN0c3VibWlzc2lvbnMuY29tIiwidXNlcklkZW50aXR5IjoiQXV0aG9yaXplZEd1ZXN0cyIsIlVzZXItQWdlbnQiOiJQb3N0bWFuUnVudGltZS83LjI5LjAiLCJ1c2VyLWlwIjoiMTI3LjAuMC4xIiwiZWMtY2gtdWEtcGxhdGZvcm0iOm51bGwsInNlYy1jaC11YS1tb2JpbGUiOm51bGwsImlzUmVnaXN0ZXJlZCI6ZmFsc2UsImV4cCI6MTY1NDM3MzE5NX0.kPABFYGtyRFpB0yNZHANDF6jfRUodAF3O_2SRrCecsE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"scholarshipId\": \"H0CsEk2bAnqBs2p\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/submissions/submit",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"submissions",
+										"submit"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "responseToSubmission",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIxMSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkRHg4ZjlxVjlONmRHVXFOTiQ2YjY5MmVjNzc3NGJmM2VjMDg4MTI3MmM0MDBhZjYxMmUyNzNjMjg2YjllOTM4YmUyNjY1NTI3NTcwZmE1YTlhIiwicGhvbmVOdW1iZXIiOiIwNTJkLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbXNhaWwubmV3bmV3IiwidXNlcklkZW50aXR5IjoiT3JnYW5pemF0aW9uQ29udGFjdCIsIlVzZXItQWdlbnQiOiJQb3N0bWFuUnVudGltZS83LjI5LjAiLCJ1c2VyLWlwIjoiMTI3LjAuMC4xIiwiZWMtY2gtdWEtcGxhdGZvcm0iOm51bGwsInNlYy1jaC11YS1tb2JpbGUiOm51bGwsImlzUmVnaXN0ZXJlZCI6dHJ1ZSwiZXhwIjoxNjU0NjM0NTQ3fQ.o_wTLFffEOXjX51OkxYmzU6v5rURV7c1L22gXvmGeaQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"scholarshipId\": \"ahf0o4tEOXsmAcTwBI6E7RDdC\",\r\n    \"SubmissionStatus\": 10,\r\n    \"submissionId\": \"ahf0o4tEOXsmAcTwBI6E7RDdC\",\r\n    \"isOpen\": true,\r\n    \"description\": \"description\",\r\n    \"freeText\": \"freeText\",\r\n    \"requirements\": \"requirements\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/submissions/responseToSubmission",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"submissions",
+										"responseToSubmission"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserSubmissions",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwicGhvbmVOdW1iZXIiOiIwNTItMTExMTExMSIsImVtYWlsIjoibmV3QG5ldy5lbWFpbCIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDI1MzM3Mn0.vAv60NPU7MNXxNECF-ZZhJfCwdJOcEZEEKPrAplQYrU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/submissions/getUserSubmissions",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"submissions",
+										"getUserSubmissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAllSubmissionsToOrganization",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDIyMjk2N30.XPS4teL_x2IMIN6JXUlyCbGMQrHmH1O3S3su0YtQnmA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/submissions/getAllSubmissionsToOrganization",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"submissions",
+										"getAllSubmissionsToOrganization"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "noauth"
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "ContactUs",
+					"item": [
+						{
+							"name": "organizationRegistration",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"ati 9on - s\",\r\n    \"email\": \"email@123.co.il\",\r\n    \"phoneNumber\":\"+0524561234\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://127.0.0.1:5000/contactUs/organizationRegistration",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"contactUs",
+										"organizationRegistration"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "data",
+					"item": [
+						{
+							"name": "regexPattern",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/regexPattern",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"regexPattern"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getDataById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/getDataById?dataId=dataId",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"getDataById"
+									],
+									"query": [
+										{
+											"key": "dataId",
+											"value": "dataId"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "regexPatternByName",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/regexPatternByName?regexName=name",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"regexPatternByName"
+									],
+									"query": [
+										{
+											"key": "regexName",
+											"value": "name"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "filesType",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/filesType",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"filesType"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "FilesType = \"FilesType\"",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/filesType",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"filesType"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "areaCode",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/data/areaCode",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"data",
+										"areaCode"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "helpdesk",
+					"item": [
+						{
+							"name": "GetStutdents",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://127.0.0.1:5000/helpdesk/getStudents",
+									"protocol": "https",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5000",
+									"path": [
+										"helpdesk",
+										"getStudents"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "remote (AWS) http-protocol",
+			"item": [
+				{
+					"name": "candidates",
+					"item": [
+						{
+							"name": "Register",
+							"item": [
+								{
+									"name": "registerStep1",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "firstName",
+													"value": "firstName",
+													"type": "text"
+												},
+												{
+													"key": "lastName",
+													"value": "lastName",
+													"type": "text"
+												},
+												{
+													"key": "idNumber",
+													"value": "123456789",
+													"type": "text"
+												},
+												{
+													"key": "birthDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "email",
+													"value": "325978@gmai.com",
+													"type": "text"
+												},
+												{
+													"key": "phoneNumber",
+													"value": "+9721234561229",
+													"type": "text"
+												},
+												{
+													"key": "city",
+													"value": "city",
+													"type": "text"
+												},
+												{
+													"key": "street",
+													"value": "stree",
+													"type": "text"
+												},
+												{
+													"key": "streetNumber",
+													"value": "45464645646",
+													"type": "text"
+												},
+												{
+													"key": "password",
+													"value": "password",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "zipCode",
+													"value": "123456",
+													"type": "text"
+												},
+												{
+													"key": "idFile",
+													"type": "file",
+													"src": "/C:/Users/eiloz/Downloads/HE.pdf"
+												}
+											]
+										},
+										"url": {
+											"raw": "http://34.228.144.228:8080/candidates/registerStep1",
+											"protocol": "http",
+											"host": [
+												"34",
+												"228",
+												"144",
+												"228"
+											],
+											"port": "8080",
+											"path": [
+												"candidates",
+												"registerStep1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep2",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "nationalService",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "nationalServiceStartDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "nationalServiceEndDate",
+													"value": "2014-12-22T03:12:58.019077+00:00",
+													"type": "text"
+												},
+												{
+													"key": "collegeName",
+													"value": "אוניברסיטה-",
+													"type": "text"
+												},
+												{
+													"key": "collegeId",
+													"value": "2",
+													"type": "text"
+												},
+												{
+													"key": "studyCurrentYear",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "fieldOfStudy",
+													"value": "מחשבים",
+													"type": "text"
+												},
+												{
+													"key": "degree",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "studyStartYear",
+													"value": "2014",
+													"type": "text"
+												},
+												{
+													"key": "token",
+													"value": "token",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "studentPermit",
+													"type": "file",
+													"src": "/C:/Users/חן/Pictures/First (3).jpg"
+												}
+											]
+										},
+										"url": {
+											"raw": "http://34.228.144.228:8080/candidates/registerStep2",
+											"protocol": "http",
+											"host": [
+												"34",
+												"228",
+												"144",
+												"228"
+											],
+											"port": "8080",
+											"path": [
+												"candidates",
+												"registerStep2"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep3",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "isAllowance",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "isWork",
+													"value": "false",
+													"type": "text"
+												},
+												{
+													"key": "workIncomeMonthly",
+													"value": "52",
+													"type": "text"
+												},
+												{
+													"key": "workIncomeMonthly",
+													"value": "",
+													"type": "text"
+												},
+												{
+													"key": "allowanceIncomeMonthly",
+													"value": "500",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "http://34.228.144.228:8080/candidates/registerStep3",
+											"protocol": "http",
+											"host": [
+												"34",
+												"228",
+												"144",
+												"228"
+											],
+											"port": "8080",
+											"path": [
+												"candidates",
+												"registerStep3"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "registerStep4",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "acceptTerms",
+													"value": "true",
+													"type": "text"
+												},
+												{
+													"key": "token",
+													"value": "token",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										},
+										"url": {
+											"raw": "http://34.228.144.228:8080/candidates/registerStep4",
+											"protocol": "http",
+											"host": [
+												"34",
+												"228",
+												"144",
+												"228"
+											],
+											"port": "8080",
+											"path": [
+												"candidates",
+												"registerStep4"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"auth": {
+								"type": "bearer",
+								"bearer": [
+									{
+										"key": "token",
+										"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImRmNGZiOTQ1LTk3NzYtNGEyYi1hNmZhLTI5MTFmZDYyOWRiYSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkQzJXeW1YalAzeHdPaWszWiQzN2E1ZWIyZGRlNzEzZjEyZjVhZTM0ODIyZmQzMDUxNjdjYWMyMDkxNWEyZDRhMGYwZjQ5NTZmZDA3MzdhZmQwIiwicGhvbmVOdW1iZXIiOiIrOTcyMTIzNDU2MTIyOTU3IiwiZW1haWwiOiIzMjU5Nzc4NUBnbWFpLmNvbSIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4yIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjUyMzg4NDl9.EJYl8tvSPC9lkKUTi9BS1A-aOLozUj6uJFwdHJ6U9cQ",
+										"type": "string"
+									}
+								]
+							},
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "candidates/addCandidates",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"username\": \"username2\",\r\n    \"password\": \"password\",\r\n            \"email\": \"eiloz67@gmail.com\",\r\n        \"phoneNumber\": \"+672524382508\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/addCandidates",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"addCandidates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/getUserData",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"getUserData"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "candidates/login",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"username\": \"emaas611fghfghfgghil@gmai.com\",\r\n    \"password\": \"password\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/login",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep1",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"phoneNumber\": \"+97212345612295\",\r\n    \"email\": \"3259785@gmai.com\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/loginByOtpStep1",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"loginByOtpStep1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep2",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"phoneNumber\": \"+97212345612295\",\r\n    \"email\": \"32597785@gmai.com\",\r\n    \"otp\": \"033088\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/loginByOtpStep2",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"loginByOtpStep2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCandidate",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/deleteCandidate",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"deleteCandidate"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateCandidate",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"password\": \"new_password\",\r\n            \"email\": \"new@new.email\",\r\n        \"phoneNumber\": \"052-1111111\",\r\n     \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InNkZnNmc2RmdyIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaDI3aklFYzh0ZHMxUGFTTiRlOWFjMGFhYzk0ZDQ0OGI0NjU2MDlhOTNmZTlkMDRlMDgwZGU5NDAxNThiYjIxNTY4MTkyYmQ2NzkwYTAzNzU2IiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUxNjgyNjI4fQ.kTv7-tJ-2AQMLphLstDdKMcjNDDjuD1MzI4SJ1-1og8\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/candidates/updateCandidate",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"candidates",
+										"updateCandidate"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImRmNGZiOTQ1LTk3NzYtNGEyYi1hNmZhLTI5MTFmZDYyOWRiYSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkYnpnSE1mTGE3Sm9udU5PaSQ5NzgxNmQyZTdmMWVkYzQ5YTZkOGU4NzFkYzU4NmVkZGYwNzg5M2UzZDFmNzQxOWQ3MTRjNWE3YmVmY2FmNjRlIiwicGhvbmVOdW1iZXIiOiIrOTcyMTIzNDU2MTIyOTU3IiwiZW1haWwiOiIzMjU5Nzc4NUBnbWFpLmNvbSIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4yIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjUyNDM3Njh9.xJ7pOskRiTnZczV3_z4sDc-aXUN6N0uA8XkyemQWcXw",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "organization",
+					"item": [
+						{
+							"name": "organization/addOrganization",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"organizationName\": \"organ111izationName888\",\r\n    \"address\": \"address\",\r\n    \"officePhone\": \"08-98745365\",\r\n    \"facebook\":\"www.facebook.co.il\",\r\n    \"linkedin\":\"www.linkedin.co.il\",\r\n    \"website\": \"www.website.co.il\",\r\n    \"lego\":\"www.lego.co.il\",\r\n    \"contacts\": [\r\n          {\r\n        \"username\": \"username2211\",\r\n        \"password\": \"password\",\r\n        \"email\": \"emai00s2@email.email\",\r\n        \"phoneNumber\": \"+9752-1234567\"\r\n        }\r\n    ],\r\n    \"organizationSize\": 1\r\n}\r\n\r\n\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/addOrganization",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"addOrganization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/login",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"username\": \"Test2\",\r\n    \"password\": \"password\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/login",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep1",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\" : \"new@email.newnew\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/loginByOtpStep1",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"loginByOtpStep1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "loginByOtpStep2",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"phoneNumber\": \"+972524382508\",\r\n    \"email\" : \"new@email.newnew\",\r\n    \"otp\": \"897176\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/loginByOtpStep2",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"loginByOtpStep2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationContact",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/getOrganizationContacts",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"getOrganizationContacts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/getOrganizationData",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"getOrganizationData"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserData",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIxMSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkN2E0S0VhQzZhYlpxMnhINCQwYmY4ZmFkMDllNjVlMGFhMWJiMjBkNjQ0MmI3ZWEwYTBkMmYxZTFlMGRiMzc5NDliOGRmZGYwMzdmZTA0ZWE0IiwicGhvbmVOdW1iZXIiOiIrOTc1Mi0xMjM0NTY3IiwiZW1haWwiOiJlbWFpMDBzMkBlbWFpbC5lbWFpbCIsInVzZXJJZGVudGl0eSI6bnVsbCwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMiIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiaXNSZWdpc3RlcmVkIjp0cnVlLCJleHAiOjE2NjAzMzc5MzB9.IRaXR1pNkSLuvA5R19_u-1ll2fhr-8cCEu9GaPWcV_s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/getUserData?usernameToGet=",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"getUserData"
+									],
+									"query": [
+										{
+											"key": "usernameToGet",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/addContact",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n          {\r\n        \"username\": \"username2211\",\r\n        \"password\": \"password\",\r\n        \"email\": \"emai00s2@email.email\",\r\n        \"phoneNumber\": \"+9752-1234567\"\r\n        }\r\n    ]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/addContacts",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"addContacts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/updateContact",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \r\n            \"email\": \"new@emsail.newnew\",\r\n        \"phoneNumber\": \"052d-0000000\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/updateContact",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"updateContact"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "organization/deleteContact",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/deleteContact?usernameToDelete=eiloz62sd",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"deleteContact"
+									],
+									"query": [
+										{
+											"key": "usernameToDelete",
+											"value": "eiloz62sd"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOrganization",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  \r\n    \"address\": \"dsfsdfaddress\",\r\n    \"officePhone\": \"08-00000\",\r\n    \"facebook\":\"new www.facebook.co.il\",\r\n    \"linkedin\":\"new www.linkedin.co.il\",\r\n    \"website\": \"new www.website.co.il\",\r\n    \"lego\":\"new  www.lego.co.il\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/updateOrganization",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"updateOrganization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteOrganization",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/organization/deleteOrganization",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"organization",
+										"deleteOrganization"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJ1c2VySWRlbnRpdHkiOiJPcmdhbml6YXRpb25Db250YWN0IiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMiIsImlzUmVnaXN0ZXJlZCI6dHJ1ZSwiZXhwIjoxNjY1MjQ0NDg3fQ.Ce6eJjxycuVcpQZRZFzNGbH2ptVDKhZvwACLI7Ftfes",
+								"type": "string"
+							}
+						]
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "scholarships",
+					"item": [
+						{
+							"name": "scholarships/add",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n   {\r\n  \r\n\"volunteering\":true,\"conditions\":[\"yeshivaGraduate\",\"israeli_citizen\"],\"extraConditions\":[\"\"],\"name\":\"sdfsdf45648\",\"minPrice\":\"2500\",\"maxPrice\":\"3000\",\"shortDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"fullDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"imageOfScholarship\":\"\",\"scholarshipType\":\"religious\",\"scholarshipPaymentType\":\"cash\",\"eligibleType\":\"preparation\",\"finalDateToApproval\":\"2021-11-01\",\"documentsRequired\":[{\"label\":\" צילום תעודת זהות של המועמד \",\"value\":\"candidate_id\"},{\"label\":\"דוח עו''ש של המועמד\",\"value\":\"candidate_current_account\"},{\"label\":\"תלושי שכר של המועמד\",\"value\":\"candidate_pay_stubs\"},{\"label\":\"אישור גובה שכר לימוד\",\"value\":\"tuition\"},{\"label\":\"אישור בוגר ישיבה\",\"value\":\"yeshiva_confirmation\"},{\"label\":\"מכתב אישי\",\"value\":\"personal_letter\"}],\"organizationId\":\"IMPACT1\",\"create_by\":\"username111\",\"organizationName\":\"None\",\"create_date\":{\"$date\":{\"$numberLong\":\"1648746426139\"}},\"update_date\":null,\"finalDateToApply\":\"2021-10-31\",\"isActive\":true}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/scholarships/add",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"scholarships",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n   {  \r\n           \r\n                    \"name\": \"77777\"\r\n               \r\n                }\r\n            \r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/scholarships/delete?scholarshipName=sdfsdf45648",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"scholarships",
+										"delete"
+									],
+									"query": [
+										{
+											"key": "scholarshipName",
+											"value": "sdfsdf45648"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwiVXNlci1BZ2VudCI6IlBvc3RtYW5SdW50aW1lLzcuMjkuMCIsInVzZXItaXAiOiIxMjcuMC4wLjEiLCJlYy1jaC11YS1wbGF0Zm9ybSI6bnVsbCwic2VjLWNoLXVhLW1vYmlsZSI6bnVsbCwiZXhwIjoxNjUzODQ2NDEzfQ.ydZbjotdqbK51hCXSBlFyObk2PDelT4oBdaCvjwH9CU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n \r\n  {  \r\n         \"volunteering\":true,\"conditions\":[\"yeshivaGraduate\",\"israeli_citizen\"],\"extraConditions\":[\"\"],\"name\":\"sdfsdf45648\",\"minPrice\":\"77\",\"maxPrice\":\"3000\",\"shortDescription\":\"מלגה למגזר החרדי ולבוגרי ישיבה\",\"fullDescription\":\"מלגfghhgjregcgjghיבה\",\"imageOfScholarship\":\"\",\"scholarshipType\":\"religious\",\"scholarshipPaymentType\":\"cash\",\"eligibleType\":\"preparation\",\"finalDateToApproval\":\"2222-11-01\",\"documentsRequired\":[{\"label\":\" צילום תעודת זהות של המועמד \",\"value\":\"candidate_id\"},{\"label\":\"דוח עו''ש של המועמד\",\"value\":\"candidate_current_account\"},{\"label\":\"תלושי שכר של המועמד\",\"value\":\"candidate_pay_stubs\"},{\"label\":\"אישור גובה שכר לימוד\",\"value\":\"tuition\"},{\"label\":\"אישור בוגר ישיבה\",\"value\":\"yeshiva_confirmation\"},{\"label\":\"מכתב אישי\",\"value\":\"personal_letter\"}],\"organizationId\":\"IMPACT1\",\"create_by\":\"username111\",\"organizationName\":\"None\",\"create_date\":{\"$date\":{\"$numberLong\":\"1648746426139\"}},\"update_date\":null,\"finalDateToApply\":\"2021-10-31\",\"isActive\":true}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/scholarships/update",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"scholarships",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get scholarships",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/scholarships",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"scholarships"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getOrganizationScholarships",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDIyMjk2N30.XPS4teL_x2IMIN6JXUlyCbGMQrHmH1O3S3su0YtQnmA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/scholarships/getOrganizationScholarships",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"scholarships",
+										"getOrganizationScholarships"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "submissions",
+					"item": [
+						{
+							"name": "submit",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InpFeW5NTTRpWFA4SDBIZSIsInBhc3N3b3JkIjpudWxsLCJwaG9uZU51bWJlciI6Iis5NzI1MjQzODI1MDgiLCJlbWFpbCI6InRlc3RzdWJtaXNzaW9uc0B0ZXN0c3VibWlzc2lvbnMuY29tIiwidXNlcklkZW50aXR5IjoiQXV0aG9yaXplZEd1ZXN0cyIsIlVzZXItQWdlbnQiOiJQb3N0bWFuUnVudGltZS83LjI5LjAiLCJ1c2VyLWlwIjoiMTI3LjAuMC4xIiwiZWMtY2gtdWEtcGxhdGZvcm0iOm51bGwsInNlYy1jaC11YS1tb2JpbGUiOm51bGwsImlzUmVnaXN0ZXJlZCI6ZmFsc2UsImV4cCI6MTY1NDM3MzE5NX0.kPABFYGtyRFpB0yNZHANDF6jfRUodAF3O_2SRrCecsE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n{\r\n    \"scholarshipId\": \"H0CsEk2bAnqBs2p\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/submissions/submit",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"submissions",
+										"submit"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "responseToSubmission",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIxMSIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkRHg4ZjlxVjlONmRHVXFOTiQ2YjY5MmVjNzc3NGJmM2VjMDg4MTI3MmM0MDBhZjYxMmUyNzNjMjg2YjllOTM4YmUyNjY1NTI3NTcwZmE1YTlhIiwicGhvbmVOdW1iZXIiOiIwNTJkLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbXNhaWwubmV3bmV3IiwidXNlcklkZW50aXR5IjoiT3JnYW5pemF0aW9uQ29udGFjdCIsIlVzZXItQWdlbnQiOiJQb3N0bWFuUnVudGltZS83LjI5LjAiLCJ1c2VyLWlwIjoiMTI3LjAuMC4xIiwiZWMtY2gtdWEtcGxhdGZvcm0iOm51bGwsInNlYy1jaC11YS1tb2JpbGUiOm51bGwsImlzUmVnaXN0ZXJlZCI6dHJ1ZSwiZXhwIjoxNjU0NjM0NTQ3fQ.o_wTLFffEOXjX51OkxYmzU6v5rURV7c1L22gXvmGeaQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"scholarshipId\": \"ahf0o4tEOXsmAcTwBI6E7RDdC\",\r\n    \"SubmissionStatus\": 10,\r\n    \"submissionId\": \"ahf0o4tEOXsmAcTwBI6E7RDdC\",\r\n    \"isOpen\": true,\r\n    \"description\": \"description\",\r\n    \"freeText\": \"freeText\",\r\n    \"requirements\": \"requirements\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/submissions/responseToSubmission",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"submissions",
+										"responseToSubmission"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUserSubmissions",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMiIsInBhc3N3b3JkIjoicGJrZGYyOnNoYTI1NjoyNjAwMDAkaWFjTFROTzN5cktiNU1uOSQ1MzZiMTZlZTg0MzBhOTA4YjBlNTZiMWI2NTU5MzM5MDQ5YWU1NmQ3NGQ2ZmQxYTA1ZDU2NjQ5MzA4YWY4NzcxIiwicGhvbmVOdW1iZXIiOiIwNTItMTExMTExMSIsImVtYWlsIjoibmV3QG5ldy5lbWFpbCIsInVzZXJJZGVudGl0eSI6IkNhbmRpZGF0ZXMiLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDI1MzM3Mn0.vAv60NPU7MNXxNECF-ZZhJfCwdJOcEZEEKPrAplQYrU",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/submissions/getUserSubmissions",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"submissions",
+										"getUserSubmissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAllSubmissionsToOrganization",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsInBob25lTnVtYmVyIjoiMDUyLTAwMDAwMDAiLCJlbWFpbCI6Im5ld0BlbWFpbC5uZXduZXciLCJVc2VyLUFnZW50IjoiUG9zdG1hblJ1bnRpbWUvNy4yOS4wIiwidXNlci1pcCI6IjEyNy4wLjAuMSIsImVjLWNoLXVhLXBsYXRmb3JtIjpudWxsLCJzZWMtY2gtdWEtbW9iaWxlIjpudWxsLCJpc1JlZ2lzdGVyZWQiOnRydWUsImV4cCI6MTY1NDIyMjk2N30.XPS4teL_x2IMIN6JXUlyCbGMQrHmH1O3S3su0YtQnmA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/submissions/getAllSubmissionsToOrganization",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"submissions",
+										"getAllSubmissionsToOrganization"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"auth": {
+						"type": "noauth"
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "ContactUs",
+					"item": [
+						{
+							"name": "organizationRegistration",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"ati 9on - s\",\r\n    \"email\": \"email@123.co.il\",\r\n    \"phoneNumber\":\"+0524561234\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.228.144.228:8080/contactUs/organizationRegistration",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"contactUs",
+										"organizationRegistration"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "data",
+					"item": [
+						{
+							"name": "regexPattern",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/regexPattern",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"regexPattern"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getDataById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/getDataById?dataId=dataId",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"getDataById"
+									],
+									"query": [
+										{
+											"key": "dataId",
+											"value": "dataId"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "regexPatternByName",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/regexPatternByName?regexName=name",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"regexPatternByName"
+									],
+									"query": [
+										{
+											"key": "regexName",
+											"value": "name"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "filesType",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/filesType",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"filesType"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "FilesType = \"FilesType\"",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/filesType",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"filesType"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "areaCode",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/data/areaCode",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"data",
+										"areaCode"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "helpdesk",
+					"item": [
+						{
+							"name": "GetStutdents",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.228.144.228:8080/helpdesk/getStudents",
+									"protocol": "http",
+									"host": [
+										"34",
+										"228",
+										"144",
+										"228"
+									],
+									"port": "8080",
+									"path": [
+										"helpdesk",
+										"getStudents"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lMjIiLCJwYXNzd29yZCI6InBia2RmMjpzaGEyNTY6MjYwMDAwJHZQemVGN3pQczlvQ2J2clMkZDM4ZTdmMjNhMWU0YzJlZmE2NDkwYTZhZDg1NGZkYmFmZWE1MmM4MTI0ZTU0OTI3ZDdlY2JlZGE3Yzc3NjMzMCIsIlVzZXItQWdlbnQiOiJQb3N0bWFuUnVudGltZS83LjI5LjAiLCJ1c2VyLWlwIjoiMTI3LjAuMC4xIiwiZWMtY2gtdWEtcGxhdGZvcm0iOm51bGwsInNlYy1jaC11YS1tb2JpbGUiOm51bGwsImV4cCI6MTY1Mjk5OTAyOX0.e-z53C866CQVO8LD4RudSmvz79lwDBpEdeWAf-wOjFg",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,2 @@
+class GeneralFields:
+    token = "token"
